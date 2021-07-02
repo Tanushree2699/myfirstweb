@@ -1,0 +1,128 @@
+@import url('https: //fonts.googleapis.com/css?family=poppins: 200,300,400,500,600,700,800,900&display=swap');
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins', unset;
+}
+section 
+{
+	position: relative;
+	width: 114%;
+	min-height: 123vh;
+	padding: 100px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: stretch;
+	background: darkorange;
+	transition: 0.5s;
+	background-size: cover;
+}
+header 
+{
+	position: absolute;
+    top: 74px;
+    left: 61px;
+    width: 85%;
+    padding: 40px 2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: revert;
+    flex-wrap: wrap;
+
+}
+header.logo
+{
+	position: relative;
+	max-width: 80px;
+}
+header ul
+{
+position: relative;
+display: flex;
+}
+header ul li 
+{
+	list-style: none;
+
+}
+
+header ul li a
+{
+	display: inline-block;
+	color: #fff;
+	font-weight: 400;
+	margin-left: 40px;
+	text-decoration: none;
+}
+.content 
+{
+	position: relative;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.content .textBox
+{
+	position: relative;
+	max-width: 653px;
+
+}
+.content .textBox h2
+{
+	color: #fff;
+	font-size: 4em;
+	line-height: 1.5em;
+	font-weight: 900;
+	text-transform: uppercase;
+
+}
+.content .textBox h2 span 
+{
+	font-size: 2em;
+
+}
+.content .textBox p 
+{
+	color: #fff;
+} 
+.content .textBox a 
+{
+	display: inline-block;
+	margin-top: 20px;
+	padding: 8px 20px;
+	background: #fff;
+	color: #111;
+	border-radius: 40px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.content .imgBox 
+{
+	
+
+	width: 637px;
+    
+    padding-right: 0px;
+    margin-top: -44px;
+   height: auto;
+}
+
+
+}
+.content .imgBox .responsive
+{
+	max-width: 700px;
+	height: auto;	
+
+
+
+}
+
